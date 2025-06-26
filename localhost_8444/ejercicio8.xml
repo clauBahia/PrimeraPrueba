@@ -3,7 +3,7 @@
     <nextMetaDataId>2</nextMetaDataId>
     <name>ejercicio8</name>
     <description></description>
-    <revision>1</revision>
+    <revision>2</revision>
     <sourceConnector version="4.5.1">
       <metaDataId>0</metaDataId>
       <name>sourceConnector</name>
@@ -155,7 +155,7 @@
 sg[&apos;OBX.1&apos;][&apos;OBX.1.1&apos;]=&apos;16&apos;;
 sg[&apos;OBX.2&apos;][&apos;OBX.2.1&apos;]=&apos;TX&apos;;
 sg[&apos;OBX.3&apos;][&apos;OBX.3.1&apos;]=&apos;16&apos;;
-sg[&apos;OBX.5&apos;][&apos;OBX.5.1&apos;]=&apos;Segmento añadido manualmente&apos;;
+sg[&apos;OBX.5&apos;][&apos;OBX.5.1&apos;]=&apos;Segmento aÃ±adido manualmente&apos;;
 
 logger.info(&quot;Segmento OBX creado: &quot; + sg.toString());
 
