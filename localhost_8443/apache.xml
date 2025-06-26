@@ -560,7 +560,7 @@ return;</deployScript>
 return;</undeployScript>
     <properties version="4.5.1">
       <clearGlobalChannelMap>true</clearGlobalChannelMap>
-      <messageStorageMode>DEVELOPMENT</messageStorageMode>
+      <messageStorageMof>DEVELOPMENT</messageStorageMode>
       <encryptData>false</encryptData>
       <encryptAttachments>false</encryptAttachments>
       <encryptCustomMetaData>false</encryptCustomMetaData>
