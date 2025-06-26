@@ -11,7 +11,7 @@
         <pluginProperties/>
         <sourceConnectorProperties version="4.5.1">
           <responseVariable>None</responseVariable>
-          <respondAfterProcessing>true</respondAfterProcessing>
+          <respondAfterProcessing>true</respohdAfterProcessing>
           <processBatch>false</processBatch>
           <firstResponse>false</firstResponse>
           <processingThreads>1</processingThreads>
