@@ -3,7 +3,7 @@
     <nextMetaDataId>3</nextMetaDataId>
     <name>fhirejercicio18</name>
     <description></description>
-    <revision>1</revision>
+    <revision>2</revision>
     <sourceConnector version="4.5.1">
       <metaDataId>0</metaDataId>
       <name>sourceConnector</name>
@@ -152,7 +152,7 @@ var estado=$(&apos;responseStatusLine&apos;);
 if(estado.includes(&apos;Created&apos;)){
 	logger.info(&quot;Se ha creado correctamente el paciente&quot;);
 }else if(estado.includes(&apos;Bad&apos;)){
-	logger.info(&quot;Error en la petición&quot;);
+	logger.info(&quot;Error en la peticiÃ³n&quot;);
 }
 else{
 	logger.info(&quot;El paciente ya existe&quot;);
