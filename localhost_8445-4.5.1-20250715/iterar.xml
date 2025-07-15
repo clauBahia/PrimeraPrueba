@@ -3,7 +3,7 @@
     <nextMetaDataId>2</nextMetaDataId>
     <name>iterar</name>
     <description></description>
-    <revision>2</revision>
+    <revision>3</revision>
     <sourceConnector version="4.5.1">
       <metaDataId>0</metaDataId>
       <name>sourceConnector</name>
@@ -158,7 +158,7 @@
             <com.mirth.connect.plugins.javascriptstep.JavaScriptStep version="4.5.1">
               <sequenceNumber>0</sequenceNumber>
               <enabled>true</enabled>
-              <script>var dbConn;var result;var driver=&quot;com.mysql.cj.jdbc.Driver&quot;;var url=&quot;jdbc:mysql://localhost:3306/pruebas&quot;;var user=&quot;root&quot;;var pass=&quot;abc123.&quot;;try {		var list=channelMap.get(&apos;obx&apos;);	dbConn = DatabaseConnectionFactory.createDatabaseConnection(driver, url, user, pass);	for(var i=0;i&lt;list.length;i++){		var ob=list[i];		result = dbConn.executeUpdate(&apos;insert into datosOBX (observaciones) values(?)&apos;,[ob]);			}	} finally {	if (dbConn) {		dbConn.close();	}}</script>
+              <script>var dbConn;var result;var driver=&quot;com.mysql.cj.jdbc.Driver&quot;;var url=&quot;jdbc:mysql://localhost:3306/pruebas&quot;;var user=&quot;root&quot;;var pass=&quot;abc123.&quot;;try {		var list=channelMap.get(&apos;obx&apos;)	dbConn = DatabaseConnectionFactory.createDatabaseConnection(driver, url, user, pass);	for(var i=0;i&lt;list.length;i++){		var ob=list[i];		result = dbConn.executeUpdate(&apos;insert into datosOBX (observaciones) values(?)&apos;,[ob]);			}	} finally {	if (dbConn) {		dbConn.close();	}}</script>
             </com.mirth.connect.plugins.javascriptstep.JavaScriptStep>
           </elements>
           <inboundTemplate encoding="base64">TVNIfF5+XCZ8UklTfFBBQ1N8fHx8fE9SVV5SMDF8OTM3OTU0fFB8Mi4zLjF8fHx8fHx8fAoJUElEfHx8MjAxMDM4MDB8fERFIEFOVE9OIEdJTF5GRVJNSU58fDE5MzAwOTE3fE18fHx8fHx8fHx8fHx8fHwKCVBWMXx8SXx8fHxJTVF8fF4yMDEwXkdBUkNJQSBWSUxMQVZFUkRFXkpFU1VTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHwKCU9CUnx8fHx8fHx8fHx8fHx8fHx8fDAyQjgyM3wwMDAwMTI5NDc3fHx8fHx8Rnx8fHx8fHx8fAoJT0JYfDB8VFh8MHx8RXhwbG9yYWNpb25lczogVMOTUkFYIFBBIFkgTEFUfHx8fHx8RgoJT0JYfDF8VFh8MXx8RmVjaGEgZXhwbG9yYWNpw7NuOiBNYXJ0ZXMsIDUgZGUgRmVicmVybyBkZSAyMDEzfHx8fHx8RgoJT0JYfDJ8VFh8Mnx8UGV0aWNpw7NuIERyL0RyYTogR0FSQ0lBIFZJTExBVkVSREUsIEpFU1VTfHx8fHx8RgoJT0JYfDN8VFh8M3x8TiBIOiAyMDEwMzgwMHx8fHx8fEYKCU9CWHw0fFRYfDR8fE5vbWJyZTogREUgQU5UT04gR0lMLCBGRVJNSU58fHx8fHxGCglPQlh8NXxUWHw1fHx8fHx8fHxGCglPQlh8NnxUWHw2fHxEYXRvcyBDbMOtbmljb3M6fHx8fHx8RgoJT0JYfDd8VFh8N3x8UmV2aXNpw7NufHx8fHx8RgoJT0JYfDh8VFh8OHx8RGlhZ27Ds3N0aWNvOnx8fHx8fEYKCU9CWHw5fFRYfDEwfHxTaW4gaGFsbGF6Z29zfHx8fHx8RgoJT0JYfDEwfFRYfDEyfHxDb21lbnRhcmlvOnx8fHx8fEYKCU9CWHwxMXxUWHwxMXx8U2luIGFsdGVyYWNpb25lcyBhIG5pdmVsIHBsZXVyYWwgbyBwYXJlbnF1aW1hdG9zbyBwdWxtb25hci58fHx8fHxGCglPQlh8MTJ8VFh8MTJ8fE5vIHBlcmNpYm8gY29tcHJvbWlzbyBzb2JyZSBzaWx1ZXRhIGNhcmRpb21lZGlhc3TDrW5pY2EufHx8fHx8RgoJT0JYfDEzfFRYfDEzfHx8fHx8fHxGCglPQlh8MTR8VFh8MTR8fEZpcm1hZG8gcG9yIE5BVEFMSUEgQUxFR1JFIEJPUkdFfHx8fHx8RgoJT0JYfDE1fFRYfDE1fHxGZWNoYTogMDUvMDIvMjAxM3x8fHx8fEYKCQ==</inboundTemplate>
@@ -378,7 +378,7 @@
       <metadata>
         <enabled>true</enabled>
         <lastModified>
-          <time>1752564695945</time>
+          <time>1747736922215</time>
           <timezone>Europe/Paris</timezone>
         </lastModified>
         <pruningSettings>
