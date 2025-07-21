@@ -3,7 +3,7 @@
     <nextMetaDataId>2</nextMetaDataId>
     <name>endpointApache</name>
     <description></description>
-    <revision>73</revision>
+    <revision>76</revision>
     <sourceConnector version="4.5.1">
       <metaDataId>0</metaDataId>
       <name>sourceConnector</name>
