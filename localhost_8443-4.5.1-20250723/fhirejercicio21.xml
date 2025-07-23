@@ -615,4 +615,26 @@
       <channelTags/>
     </exportData>
   </channel>
+     <string>[Default Resource]</string>
+        </entry>
+      </resourceIds>
+    </properties>
+    <exportData>
+      <metadata>
+        <enabled>true</enabled>
+        <lastModified>
+          <time>1748849284199</time>
+          <timezone>Europe/Paris</timezone>
+        </lastModified>
+        <pruningSettings>
+          <archiveEnabled>true</archiveEnabled>
+          <pruneErroredMessages>false</pruneErroredMessages>
+        </pruningSettings>
+        <userId>1</userId>
+      </metadata>
+      <dependentIds/>
+      <dependencyIds/>
+      <channelTags/>
+    </exportData>
+  </channel>
   

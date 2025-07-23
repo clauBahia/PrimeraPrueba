@@ -400,4 +400,18 @@
       <channelTags/>
     </exportData>
   </channel>
+  361785</time>
+          <timezone>Europe/Paris</timezone>
+        </lastModified>
+        <pruningSettings>
+          <archiveEnabled>true</archiveEnabled>
+          <pruneErroredMessages>false</pruneErroredMessages>
+        </pruningSettings>
+        <userId>1</userId>
+      </metadata>
+      <dependentIds/>
+      <dependencyIds/>
+      <channelTags/>
+    </exportData>
+  </channel>
   
